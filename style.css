@@ -1,0 +1,36 @@
+.sidebar{
+    left: 0;
+    top: 0;
+    margin:0;
+    padding:0;
+    width: 200px;
+    background-color: #bcbcbc;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+.content{
+    margin-left: 200px;
+    padding: 1px 16px;
+}
+.bungkus{
+    display:flex;
+    flex-direction: row;
+}
+header{
+    top: 0;
+    width: 100%;
+    background-color: #bcbcbc;
+    padding:2px;
+    text-align: center;
+}
+body{
+    margin:0;
+    padding:0;
+}
